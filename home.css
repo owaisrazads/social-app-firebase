@@ -1,11 +1,11 @@
-a{
-    text-decoration: none;
-}
-.anchor{
+.main{
     align-items: center;
     text-align: center;
 }
-.main{
+.logout-btn{
     align-items: center;
+    text-align: center;
+}
+h2{
     text-align: center;
 }

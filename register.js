@@ -4,8 +4,10 @@ import { auth } from "./config.js";
 
 const form = document.querySelector('#form')
 const email = document.querySelector('#email')
+const name = document.querySelector('#name')
+const img = document.querySelector('#img')
 const password = document.querySelector('#password')
-// const confirmPass = document.querySelector('#confirm-password')
+
 
 
 
@@ -15,10 +17,10 @@ form.addEventListener('submit', (e)=>{
   .then((userCredential) => {
     const user = userCredential.user;
     console.log(user);
-    email.value = ''
-    password.value = ''
+    email.value = '';
+    password.value = '';
     // confirmPass.value = ''
-    window.location = 'index.html'
+    window.location = 'index.html';
 
 
 
